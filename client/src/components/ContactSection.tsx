@@ -75,18 +75,22 @@ export default function ContactSection() {
                   size="icon"
                   className="w-12 h-12"
                   data-testid="button-linkedin"
-                  onClick={() => console.log("LinkedIn profile clicked")}
+                  asChild
                 >
-                  <Linkedin className="w-5 h-5" />
+                  <a href="https://www.linkedin.com/in/ashin-tom-sebastian-62a544317?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer">
+                    <Linkedin className="w-5 h-5" />
+                  </a>
                 </Button>
                 <Button
                   variant="outline"
                   size="icon"
                   className="w-12 h-12"
                   data-testid="button-github"
-                  onClick={() => console.log("GitHub profile clicked")}
+                  asChild
                 >
-                  <Github className="w-5 h-5" />
+                  <a href="https://github.com/ashin3393-coder" target="_blank" rel="noopener noreferrer">
+                    <Github className="w-5 h-5" />
+                  </a>
                 </Button>
               </div>
             </div>
