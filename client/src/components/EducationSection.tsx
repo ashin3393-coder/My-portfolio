@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 
 const education = [
   {
-    degree: "MBA (Master of Business Administration)",
+    degree: "MBA in FinTech and AI",
     institution: "Lovely Professional University",
     period: "2025 - 2027",
     grade: "Currently Pursuing",

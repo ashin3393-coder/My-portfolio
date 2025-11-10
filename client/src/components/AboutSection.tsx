@@ -34,10 +34,10 @@ export default function AboutSection() {
           </h2>
           <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
             <p data-testid="text-about-content-1">
-              I am a finance and data analytics enthusiast currently pursuing an MBA at Lovely Professional University 
-              (2025-2027), building upon my BCom (General) degree from SRM Institute of Science and Technology, where I 
+              I am a finance and data analytics enthusiast currently pursuing an MBA in FinTech and AI at Lovely Professional 
+              University (2025-2027), building upon my BCom (General) degree from SRM Institute of Science and Technology, where I 
               achieved a CGPA of 8.3. My academic journey has equipped me with a strong foundation in business, finance, 
-              and data-driven decision making.
+              artificial intelligence, and data-driven decision making.
             </p>
             <p data-testid="text-about-content-2">
               My professional experience includes an auditing internship at Hurdyaa Adconser Private Limited, where I 
