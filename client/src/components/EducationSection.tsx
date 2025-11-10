@@ -4,6 +4,12 @@ import { useEffect, useRef, useState } from "react";
 
 const education = [
   {
+    degree: "MBA (Master of Business Administration)",
+    institution: "Lovely Professional University",
+    period: "2025 - 2027",
+    grade: "Currently Pursuing",
+  },
+  {
     degree: "BCom (General)",
     institution: "SRM Institute of Science and Technology, Ramapuram",
     period: "August 2022 - May 2025",
@@ -14,12 +20,6 @@ const education = [
     institution: "Notredame of HolyCross, Salem",
     period: "June 2020 - May 2021",
     grade: "Percentage: 82%",
-  },
-  {
-    degree: "Secondary",
-    institution: "Senthil Public School, Salem",
-    period: "June 2010 - March 2019",
-    grade: "Percentage: 81%",
   },
 ];
 
