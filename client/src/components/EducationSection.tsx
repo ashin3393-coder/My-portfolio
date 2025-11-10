@@ -6,7 +6,7 @@ const education = [
   {
     degree: "BCom (General)",
     institution: "SRM Institute of Science and Technology, Ramapuram",
-    period: "August 2022 - Present",
+    period: "August 2022 - May 2025",
     grade: "CGPA: 8.3",
   },
   {

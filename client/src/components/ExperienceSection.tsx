@@ -53,8 +53,11 @@ export default function ExperienceSection() {
                     <h3 className="text-2xl font-semibold text-card-foreground mb-2" data-testid="text-internship-title">
                       Auditing Internship
                     </h3>
+                    <p className="text-muted-foreground font-medium mb-1">
+                      Hurdyaa Adconser Private Limited
+                    </p>
                     <p className="text-primary font-medium" data-testid="text-internship-date">
-                      December 2024 - Present
+                      December 2024 - January 2025
                     </p>
                   </div>
 

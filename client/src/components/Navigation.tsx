@@ -61,6 +61,13 @@ export default function Navigation() {
                 Skills
               </button>
               <button
+                onClick={() => scrollToSection("projects")}
+                className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+                data-testid="link-projects"
+              >
+                Projects
+              </button>
+              <button
                 onClick={() => scrollToSection("experience")}
                 className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
                 data-testid="link-experience"
@@ -117,6 +124,13 @@ export default function Navigation() {
               data-testid="link-mobile-skills"
             >
               Skills
+            </button>
+            <button
+              onClick={() => scrollToSection("projects")}
+              className="text-lg font-medium text-muted-foreground hover:text-foreground transition-colors"
+              data-testid="link-mobile-projects"
+            >
+              Projects
             </button>
             <button
               onClick={() => scrollToSection("experience")}
